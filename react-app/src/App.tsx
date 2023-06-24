@@ -6,7 +6,7 @@ import Todo from "./components/Todo";
 import "./App.css";
 function App() {
   const [todos, setTodos] = useState<Todo[]>([]);
-  const [error, setError] = useState<any>(null);
+  const [setError] = useState<any>(null);
 
   interface Todo {
     title: string;
